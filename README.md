@@ -162,3 +162,9 @@ Sert à dire à git qu'on vient de passer à une nouvelle version de son projet.
 - `git add` permet de passer du working directory au stage
 - `git commit` permet de passer du stage au repository
 - `git push` permet d'envoyer toutes les modifications qui ont été commitées (nouvelle version de son code) vers le repository distant GitHub
+
+### Imbriquation dépôts git
+
+Un dépôt enfant en tant que sous-dossier d'un dépôt parent.
+- [subtree](https://www.atlassian.com/git/tutorials/git-subtree)
+- [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
