@@ -89,16 +89,17 @@ Vous pouvez utiliser les données [d'EuroSport](https://www.eurosport.fr/footbal
 
 ---
 
-## Partie V : introduction d'un bug dans le calendrier
-
-1. Le collaborateur *glo10* a introduit un bug dans l'un des fichiers de votre projet (il vous communiquera précisément le nom du fichier) depuis la branche *feature/calendar/bug*.
-2. Récupérez en local cette branche et recherchez quand est-ce qu'à été introduit le mot ***bug*** dans le fichier.
-
----
-
-## Partie VI : nettoyage
+## Partie V : nettoyage
 
 1. Si ce n'est pas déjà fait, effectuez tous les merges des autres branches dans *main* en local
 2. Ajoutez un nouveau tag
 3. Sur GitHub, supprimez toutes autres branches et gardez uniquement la branche *main*
 4. Supprimez également les autres branches que *main* en local dans chaque dépôt git local
+
+---
+
+## Partie VI : introduction d'un bug dans le calendrier
+
+1. Le collaborateur *glo10* a introduit un bug dans l'un des fichiers de votre projet (il vous communiquera précisément le nom du fichier) depuis la branche *feature/calendar/bug*.
+2. Récupérez en local cette branche et recherchez quand est-ce qu'à été introduit le mot ***bug*** dans le fichier.
+
