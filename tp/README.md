@@ -33,7 +33,7 @@ Vous pouvez utiliser les données [d'EuroSport](https://www.eurosport.fr/footbal
 
 ### Illustration de l'arborescence de vos fichiers et dossiers
 
--![arbo](./img/arborescence.jpg)
+![arbo](./img/arborescence.jpg)
 
 ---
 
