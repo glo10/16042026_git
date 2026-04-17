@@ -143,6 +143,8 @@ Sert à dire à git qu'on vient de passer à une nouvelle version de son projet.
 - `git pull origin main`
 - `pull` = `fetch` + `merge`
 
+![fetch](./schemas/fetch_merge_pull.jpg)
+
 ---
 
 ### Différences entre 2 commits
