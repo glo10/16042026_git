@@ -40,15 +40,21 @@ Vous pouvez utiliser les données [d'EuroSport](https://www.eurosport.fr/footbal
 ### Partie I : création du dépôt par une seul personne du binôme ou trinôme
 
 1. Créez un dépôt GitHub **en cochant la case add README.md**. Cela permet d'avoir directement le premier commit et permettre aux autres de pouvoir manipuler les branches immédiatement après le clone.
+
 ![check](./img/check.png)
+
 2. Protégez la branche main depuis ***Settings > branches > add classic branch protection rule*** en cochant les règles suivantes
 - [x] Require a pull request before merging 
 - [x] Require approvals
 - [x] Lock branch
+
 ![branch](./img/branch_rule_1.png)
 ![rules](./img/rules.png)
+
 3. Depuis ***Settings > Access > Collaborators > add people***, ajoutez les autres membres en tant que collaborateur à partir de leur pseudo sur GitHub et ajoutez le formateur dont le pseudo est *glo10*.
+
 ![add_people](./img/access.jpg)
+
 4. Acceptez l'invitation depuis l'e-mail envoyé par GitHub au compte associé à votre compte.
 5. En local, **tout le monde clone le dépôt**.
 
