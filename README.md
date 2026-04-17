@@ -170,3 +170,9 @@ Sert à dire à git qu'on vient de passer à une nouvelle version de son projet.
 Un dépôt enfant en tant que sous-dossier d'un dépôt parent.
 - [subtree](https://www.atlassian.com/git/tutorials/git-subtree)
 - [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+
+## Rebase
+
+Pour avoir un historique linéaire, les commits des autres branches sont rejoués dans la branche de base (main).
+
+![rebase](./schemas/rebase.jpg)
