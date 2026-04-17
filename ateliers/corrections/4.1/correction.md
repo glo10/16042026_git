@@ -137,3 +137,45 @@ git diff a0256be f886b02
 # R19
 git diff a0256be f886b02 README.md
 ```
+
+---
+
+## Partie V : format-patch
+
+20. Q20 : votre sandwich burger fait fureur, collègues sont intéressés et vous décidez de créer un patch à l'aide de la commande `git format-patch -o ./patches 01a8c5b` pour extraire les changements depuis le commit juste avant l'ajout de votre sandwich burger.
+PS : *01a8c5b* à remplacer par le hash du commit précédent le commit ayant introduit le [burger.md](./burger.md) 
+```bash
+# R20
+git format-patch -o ./patches 01a8c5b
+```
+- Allez dans le dossier [./patches](./pactches) pour voir les fichiers générés par la commande précédente
+21. Q21 : créez un nouveau dossier en dehors votre projet git encore et initialisez un nouveau projet git
+- Attention à ne pas initialiser un dépôt git dans un autre dépôt git
+```bash
+# R21 
+pwd # pwd pour vérifier le dossier courant
+cd /vers/le/nouveau/projet # Si nécessaire pour se déplacer dans le bon dossier
+git init # Initialisation du nouveau projet git
+```
+22. Q22 : effectuez votre premier commit sur ce nouveau dépôt
+- R22 : créez un fichier README.md et effectuez les commandes suivantes
+```bash
+# R22
+git add README.md
+git commit -m 'first commit'
+git branch -M main
+```
+23. Q23 : copiez/collez le dossier */patches/* du premier dépôt au second dépôt (à la racine du projet)
+- R23 : illustration de l'arborescence des dossiers dans le nouveau projet git
+![arbo](../img/arbo_new_project.jpg)
+24. Q24 : depuis le nouveau dépôt local, exécutez la commande `git apply --3way ./patches/fichier_commit_burger.patch`
+```bash
+git apply --3way ./patches/fichier_commit_burger.patch # option --3way en cas de conflit (ce sujet sera abordé plus tard)
+```
+PS : remplacer *fichier_commit_burger.patch* par le chemin réelle sur votre dépôt de ce fichier normalement commençant par ***00*** et finissant par ***.patch***
+25. Q25 : observez le résultat et regardez l'état de votre dépôt ainsi que l'historique des commandes
+```bash
+# R25
+git status
+git log --oneline
+```
